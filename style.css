@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 191, 255, 0.6);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: normal;
+  border: 2px dotted white;
+  border-radius: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px 500px;
+}
+
+.search-field:focus {
+  width: 290px;
+}
+
+.search-field {
+  margin-bottom: 10px;
+}
+
+#profile-picture {
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+}
+
+#profile-picture:hover {
+  -webkit-border-radius: 0%;
+}
+
+
+.friend-request-button {
+  width: 295px;
+}
+
+.about-me,
+.hobbies {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: white;
+  font-size: 15px;
+  border: 2px dotted white;
+  border-radius: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 10px 500px;
+}
+
+.li {
+  text-align: left;
+}
